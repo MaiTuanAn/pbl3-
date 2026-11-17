@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 def generate_flight_path(filename, duration_sec=60, speed_mps=20):
-    """Hàm sinh quỹ đạo giả lập tuyến tính (dự phòng)."""
+    """Hàm sinh quỹ đạo giả (test code)."""
     with open(filename, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["time", "distance"])

@@ -8,7 +8,7 @@ import plotter
 
 def main():
     # 1. Nạp dữ liệu quỹ đạo bay thực tế từ Mission Planner (chuẩn hóa 1 Hz)
-    csv_file = "2026-11-16 16-07-29.csv"
+    csv_file = "2026-11-17 18-42-52.csv"
     path_data = trajectory.read_trajectory(csv_file, resample_1hz=True)
 
     # 2. Cấu hình tần số phát xung laser (1 MHz = 1.000.000 xung/giây)
